@@ -67,6 +67,14 @@ header{
 	
 }
 
+#wrapper h2{
+  /*  font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;*/
+    font-size: 18px;
+  
+}
+
+
 #wrapper .detail{
     font-size: 18px;
     text-align: center;
