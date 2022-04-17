@@ -2,11 +2,12 @@
 <head>
 <meta charset="utf-8"/>
 <link rel="stylesheet" type="text/css" href="/static/css/main.css" >
+<link rel="stylesheet" type="text/css" href="/static/css/academicons.css" >
 <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700,500' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
 <!-- <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'> -->
 
-<title>Alicia Sun</title>
+<!-- <title>Alicia Sun</title> -->
 
 </head>
 
@@ -15,27 +16,44 @@
 <body>
 
 <!-- CONTENT HERE -->
-	<header>
-	     <h1><a href="/home/index"> Alicia Sun </a></h1>
-		<ul class="nav">
-			  <li><a href="#Home" class="shadow-link">Home</a></li>
-	          <li><a href="#About" class="shadow-link">About</a></li>
-	          <li><a href="#Research" class="shadow-link">Research</a></li>
-	          <li><a href="#Interest" class="shadow-link">Interest</a></li>
-	          <li><a href="#Contact" class="shadow-link">Contact</a></li>
-	    </ul>
-	</header>
-	<br>
-	<br>
-	<br>
 
-	<div id="wrapper">
+
+
+
+	<div id="main">
+		<header>
+		   <ul class="nav">
+				 <li><a href="#Home" class="shadow-link">Home</a></li>
+				 <li><a href="#About" class="shadow-link">About</a></li>
+				 <li><a href="#Research" class="shadow-link">Research</a></li>
+				 <li><a href="#Interest" class="shadow-link">Interest</a></li>
+				 <li><a href="#Contact" class="shadow-link">Contact</a></li>
+		   </ul>
+	   </header>
+	   <br>
+	   <br>
+	   <br>
 	<!-- <hr class="nav-hr"> -->
-		<div id="main-content">
-		    <div class="col-12">
-				<div><img src="/static/img/profile.jpg" class="personal-pic" /></div>
+		<div class="sidebar sticky">
+			<div itemscope itemtype="http://schema.org/Person">
+			<div class="author__avatar"> <img src="/static/img/profile.jpg" class="author__avatar" alt="Your Sidebar Name"></div>
+			<div class="author__content"><h3 class="author__name">Alicia Sun</h3></div>
+			<div class="author__urls-wrapper">
+				<ul class="author__urls social-icons">
+					<!-- <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Location</li> -->
+					<li><a href="https://scholar.google.com/citations?user=j48_hiIAAAAJ&hl=en"><img style="width:20px;height:auto;" src="static/img/gscholar.png">&nbsp</img>Google Scholar</li>
+				</ul>
 			</div>
-			<div class="col-8">
+			</div>
+		</div>
+	
+
+		<div id="main-content">
+		    <div class="page">
+
+				<!-- <div><img src="/static/img/profile.jpg" class="personal-pic" /></div> -->
+
+			<div class="page__inner-wrap">
 				<h1><a name="About">About</a></h1>
 				<div class="detail">Hi, I'm Yi (Alicia) Sun. I am a PhD student at MIT IDSS. I'm working with <a href="http://www.kalyanv.org/">Kalyan Veeramachaneni</a> in the <a href="http://dai.lids.mit.edu">Data to AI Lab</a> at <a href="https://lids.mit.edu">LIDS</a>. My research interests are designing sequential algorithms that are robust and reliable
 					as well as aligned with societal values.
@@ -47,7 +65,9 @@
 				<h1><a name="Research">Research</a></h1>
 
 			</div> -->
-			<div class="col-8">
+			<div class="page__inner-wrap">
+				<br>
+				<br>
 				<h1><a name="Publication">Publication</a></h1>
 				<p><strong>Learning Vine Copula For Synthetic Data Generation</strong>
 					<br />
@@ -75,7 +95,9 @@
 				<h1><a name="Interest">Interest</a></h1>
                 <div class="detail">During my spare time, I enjoy playing piano and a little bit classical guitar. I also recently become a fan of outdoor activities such as skiing and sailing.
 			</div> -->
-			<div class="col-8">
+			<div class="page__inner-wrap">
+				<br>
+				<br>
 				<h1><a name="Contact">Contact</a></h1>
 				<h2>Address</h2>
                 Massachusetts Institute of Technology<br>
@@ -83,15 +105,12 @@
                 Cambridge, MA 02139     <br>
 				<h2>Send an e-mail at: </h2>
              	<a href="mailto:yis@mit.com">yis@mit.edu</a>
-            	</div>
+            </div>
           </div>
 			</div>
 		</div>
 
 
-<!-- 		<div id="footer">
-			<p>© 2019-2020 Alicia Yi Sun </p>
-		</div> -->
 	</div>
 </body>
 
